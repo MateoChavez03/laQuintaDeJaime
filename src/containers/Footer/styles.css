@@ -1,0 +1,18 @@
+footer {
+    background-color: #1E1E1E;
+    color: #CAC1AE;
+    height: 150px;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.title span {
+    font-size: 16px;
+}
+
+.place {
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,10 +1,20 @@
 import React from 'react';
 
+import { NavLink } from 'react-router-dom';
+
 import "./styles.css";
 
-const NavbarBtn = () => {
+const NavbarBtn = ({page}) => {
+
+  let title = page
+  if (page === "") {
+    title = "Inicio"
+  }
+
   return (
-    <div>NavbarBtn</div>
+    <button>
+      <NavLink to={page.toLowerCase()} className={({isActive}) => isActive ? "activeLink" : "link"} > {title} </NavLink>
+    </button>
   )
 }
 

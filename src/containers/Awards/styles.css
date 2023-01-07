@@ -1,0 +1,20 @@
+.awards img {
+    max-height: 1927px;
+}
+
+@media screen and (min-width: 1439px) {
+    .awards div {
+        max-width: 80%
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .awards {
+        background-image: url("../../../public/assets/img/logos/mainBottle.png");
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: contain;
+    }
+    
+}

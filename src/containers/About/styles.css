@@ -1,0 +1,78 @@
+.textJustify {
+    text-align: justify;
+    font-size: 28px;
+}
+
+.about .foot {
+    font-size: 28px;
+}
+
+.about .foot span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.imgFoot {
+    font-size: 22px;
+}
+
+.imgFirstRow {
+    width: 700px;
+    height: auto;
+}
+
+@media screen and (max-width:1439px) {
+    .textJustify {
+        font-size: 20px;
+    }
+
+    .about .foot {
+        font-size: 20px;
+    }
+
+    .imgFirstRow {
+        width: 500px;
+        height: auto;
+    }
+
+    .imgSecondRow {
+        width: 300px;
+        height: auto;
+    }
+
+    .imgThirdRow {
+        width: 500px;
+        height: auto;
+    }
+
+    .imgFourthRow {
+        width: 500px;
+        height: auto;
+    }
+
+    .imgFifthRow {
+        width: 500px;
+        height: auto;
+    }
+
+    .imgEndRow {
+        width: 400px;
+        height: auto;
+    }
+
+    .textEndRow {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .imgFoot {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .imgFirstRow, .imgThirdRow, .imgFifthRow {
+        width: 330px;
+    }
+    
+}

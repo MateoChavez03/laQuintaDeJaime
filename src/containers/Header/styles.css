@@ -1,0 +1,20 @@
+header .logo {
+    width: auto;
+    max-height: 17vh;
+}
+
+header {
+    background-color: #1E1E1E;
+    height: 18vh; 
+}
+
+.hamburgerIcon {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+    header .logo {
+        height: 100px;
+    }   
+}

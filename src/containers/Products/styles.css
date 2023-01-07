@@ -1,0 +1,40 @@
+.products {
+    background-image: url("../../../public/assets/img/products/productsBg.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+
+.prod-span {
+    color: #511B1B;
+}
+
+.prod-intro {
+    font-size: 28px;
+}
+
+@media screen and (max-width: 767px) {
+    .products {
+        background-image: url("../../../public/assets/img/products/productsBg.png");
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 400px;
+    }
+
+    .products h2 {
+        font-size: 30px!important;
+    }
+
+    .products h3 {
+        font-size: 30px!important;
+    }
+    
+    .prod-span {
+        color: #511B1B;
+    }
+    
+    .prod-intro {
+        text-align: justify;
+        font-size: 20px;
+    } 
+}

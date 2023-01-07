@@ -1,0 +1,512 @@
+.banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: inherit;
+}
+
+.banner h2 {
+    padding-left: 80px!important;
+}
+
+.banner p {
+    padding-left: 80px!important;
+}
+
+.bannerPos1 {
+    background-image: url(../../../public/assets/img/home/bannerPos1.png);
+}
+
+.bannerPos1 h2 {
+    color: #FFFFFF;
+    font-size: 40px!important;
+}
+
+.bannerPos1 h2 span {
+    color: #511B1B;
+    font-size: 80px;
+}
+
+.bannerPos1 p {
+    color: #B1925C;
+    font-size: 30px;
+}
+
+.bannerPos2 {
+    background-image: url(../../../public/assets/img/home/bannerPos2.png);
+}
+
+.bannerPos2 h2 {
+    color: #FFFFFF;
+    font-size: 70px!important;
+}
+
+.bannerPos2 p {
+    color: #FFE2E2;
+    font-size: 40px!important;
+}
+
+.bannerPos3 {
+    background-image: url(../../../public/assets/img/home/bannerPos3.png);
+}
+
+.bannerPos3 h2 {
+    color: #FFFFFF;
+    font-size: 70px!important;
+}
+
+.bannerPos3 p {
+    color: #B1925C;
+    font-size: 30px;
+}
+
+.bannerPos4 {
+    background-image: url(../../../public/assets/img/home/bannerPos4.png);
+}
+
+.bannerPos4 h2 {
+    color: #FFFFFF;
+    font-size: 70px!important;
+}
+
+.bannerPos4 p {
+    color: #B1925C;
+    font-size: 30px;
+}
+
+.carousel-control-prev {
+    width: 32px!important;
+    margin-left: 16px;
+}
+
+.carousel-control-next {
+    width: 32px!important;
+    margin-right: 16px;
+}
+
+.carousel {
+    height: 83vh;
+}
+
+.carousel-inner {
+    height: inherit;
+}
+
+.carousel-item {
+    height: inherit;
+}
+
+.infoHomeTitle {
+    text-align: justify;
+    width: 40%;
+    color: #000000
+}
+
+.infoHomeTitle span {
+    color: #511B1B;
+}
+
+.infoHomeText{
+    text-align: justify;
+    font-size: 30px;
+    width: 60%;
+}
+
+.productsHome div img {
+    height: auto;
+    width: 130px;
+}
+
+.productsHome div h3 {
+    font-size: 50px!important;
+}
+
+.rowMText {
+    vertical-align: middle;
+    font-size: 25px;
+    color: #511B1B;
+}
+
+.rowMText span {
+    color: #000000;
+}
+
+.rowMLogo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+}
+
+.rowMLogo1 {
+    background-image: url(../../../public/assets/img/home/rowMLogo1.png);
+}
+
+.rowMLogo2 {
+    background-image: url(../../../public/assets/img/home/rowMLogo2.png);
+}
+
+.rowMLogo3 {
+    background-image: url(../../../public/assets/img/home/rowMLogo3.png);
+}
+
+.rowMLogo4 {
+    background-image: url(../../../public/assets/img/home/rowMLogo4.png);
+}
+
+.category {
+    background-color: #511B1B;
+    color: #B1925C;
+    width: 200px;
+    max-width: 250px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.categoryCh {
+    background-color: #1E1E1E;
+}
+
+.awardHome {
+    background-image: url(../../../public/assets/img/home/awardBg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.awardHome h3 {
+    font-size: 40px!important;
+    color: #000000;  
+}
+
+.awardHome h3 span {
+    font-size: 60px;
+    color: #511B1B;   
+}
+
+.awardHome div {
+    border: 2px solid #511B1B;
+    border-radius: 0px 0px 100px 5px;
+}
+
+.awardHomeBanner {
+    width: 30%;
+    max-width: max-content;
+    height: auto;
+}
+
+.awardHomeInfo {
+    font-size: 20px;
+    width: 65%;
+    border: 2px solid #511B1B;
+    border-radius: 5px 5px 100px 5px;
+    padding-right: 60px!important;
+}
+
+.newsHome h4 {
+    font-size: 40px;
+    color: #511B1B;
+}
+
+.news {
+    width: 320px;
+    height: 585px;
+    border: 2px solid #000000;
+    border-radius: 10px 10px 70px 10px;
+}
+
+.news a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: 2px underline #000000!important ;
+}
+
+.news a:hover {
+    color: #000000!important;
+}
+
+
+.instagram {
+    border-radius: 10px;
+    border: 2px solid #000000!important;
+}
+
+@media screen and (max-width: 1439px) {
+    .category {
+        background-color: #511B1B;
+        color: #B1925C;
+        width: 135px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .categoryCh {
+        background-color: #1E1E1E;
+    }
+
+    .rowMLogo {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 180px;
+        width: 180px;
+    }
+
+    .rowMText {
+        vertical-align: middle;
+        font-size: 20px;
+        color: #511B1B;
+    }
+    
+    .rowMText span {
+        color: #000000;
+    }
+
+    .productsHome div img {
+        height: auto;
+        width: 100px;
+    }
+
+    .awardHomeBanner {
+        width: 33%;
+        max-width: max-content;
+        height: auto;
+    }
+    
+    .awardHomeInfo {
+        font-size: 16px;
+        width: 65%;
+        border: 2px solid #511B1B;
+        border-radius: 5px 5px 100px 5px;
+        padding-right: 0px!important;
+    }
+
+    .awardHome {
+        background-image: url(../../../public/assets/img/home/awardBg.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 200px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    
+    .banner h2 {
+        padding-left: 60px!important;
+    }
+    
+    .banner p {
+        padding-left: 60px!important;
+    }
+    
+    .bannerPos1 h2 {
+        font-size: 30px!important;
+    }
+    
+    .bannerPos1 h2 span {
+        font-size: 60px;
+    }
+    
+    .bannerPos1 p {
+        font-size: 20px;
+    }
+    
+    
+    .bannerPos2 h2 {
+        font-size: 50px!important;
+    }
+    
+    .bannerPos2 p {
+        font-size: 30px!important;
+    }
+    
+    .bannerPos3 h2 {
+        font-size: 50px!important;
+    }
+    
+    .bannerPos3 p {
+        font-size: 20px;
+    }
+    
+    .bannerPos4 h2 {
+        font-size: 50px!important;
+    }
+    
+    .bannerPos4 p {
+        font-size: 20px;
+    }
+    
+    .carousel-control-prev {
+        margin-left: 8px;
+    }
+    
+    .carousel-control-next {
+        margin-right: 8px;
+    }
+    
+    .infoHomeTitle {
+        font-size: 40px!important;
+        width: 100%;
+    }
+    
+    .infoHomeText{
+        font-size: 26px!important;
+        width: 100%;
+    }
+    
+    .productsHome div img {
+        height: auto;
+        width: 90px!important;
+    }
+    
+    .productsHome div h3 {
+        font-size: 40px!important;
+    }
+    
+    .rowMText {
+        font-size: 20px;
+    }
+    
+    .rowMLogo {
+        height: 150px;
+        width: 150px;
+    }
+    
+    .category {
+        width: 106px;
+        font-size: 16px;
+    }
+    
+    .awardHome {
+        background: none
+    }
+    
+    .awardHome h3 {
+        font-size: 30px!important; 
+    }
+    
+    .awardHome h3 span {
+        font-size: 50px;
+        color: #511B1B;   
+    }
+    
+    .awardHome div {
+        border: none
+    }
+    
+    .awardHomeBanner {
+        width: 100%;
+        height: auto;
+    }
+    
+    .awardHomeInfo {
+        font-size: 18px;
+        width: 100%;
+        border: none
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .banner h2 {
+        padding-left: 40px!important;
+    }
+    
+    .banner p {
+        padding-left: 40px!important;
+    }
+    
+    .bannerPos1 h2 {
+        font-size: 20px!important;
+    }
+    
+    .bannerPos1 h2 span {
+        font-size: 40px;
+    }
+    
+    .bannerPos1 p {
+        font-size: 16px;
+    }
+    
+    
+    .bannerPos2 h2 {
+        font-size: 30px!important;
+        padding-right: 10px;
+    }
+    
+    .bannerPos2 p {
+        font-size: 20px!important;
+    }
+    
+    .bannerPos3 h2 {
+        font-size: 30px!important;
+    }
+    
+    .bannerPos3 p {
+        font-size: 16px;
+    }
+    
+    .bannerPos4 h2 {
+        font-size: 30px!important;
+    }
+    
+    .bannerPos4 p {
+        font-size: 16px;
+    }
+
+    .infoHomeTitle {
+        font-size: 30px!important;
+        width: 100%;
+    }
+    
+    .infoHomeText{
+        font-size: 20px!important;
+        width: 100%;
+    }
+
+    .productsHome div img {
+        height: auto;
+        width: 70px!important;
+    }
+    
+    .productsHome div h3 {
+        font-size: 28px!important;
+    }
+    
+    .rowMText {
+        font-size: 14px;
+    }
+    
+    
+    .rowMLogo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .category {
+        width: 80px;
+        font-size: 12px;
+    }
+    
+    .awardHome h3 {
+        font-size: 20px!important; 
+    }
+    
+    .awardHome h3 span {
+        font-size: 40px; 
+    }
+    
+    .awardHomeInfo {
+        font-size: 18px;
+    }
+
+    
+    .newsHome h4 {
+        font-size: 30px;
+    }
+
+    .news {
+        width: 380px;
+        height: 460px;
+    }
+}

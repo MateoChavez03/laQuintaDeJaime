@@ -1,0 +1,78 @@
+.product {
+    width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 9px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+    border-left: 1px solid #000000;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to top, #FFFFFF 0% 10%,#000000 10% 90%, #FFFFFF 90% 100%);
+}
+
+.prodImg {
+    width: 200px;
+}
+
+.prodAward {
+    font-size: 15px!important;
+    width: 300px;
+}
+
+.prodInfo {
+    font-size: 18px!important;
+}
+
+.prodName {
+    font-size: 25px!important;
+    color: #511B1B;
+    font-weight: 500;
+}
+
+.prodLogo {
+    width: max-content;
+    height: max-content;
+}
+
+@media screen and (max-width: 767px) {
+    .product {
+        width: 360px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 9px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .description {
+        border: none;
+        width: 260px;
+    }
+    
+    .prodImg {
+        width: 80px;
+        height: min-content;
+    }
+    
+    .prodAward {
+        font-size: 12px!important;
+        width: 150px;
+    }
+    
+    .prodInfo {
+        font-size: 12px!important;
+    }
+    
+    .prodName {
+        font-size: 20px!important;
+        color: #511B1B;
+        font-weight: 500;
+    }
+    
+    .prodLogo {
+        width: max-content;
+        height: max-content;
+    }
+    
+}

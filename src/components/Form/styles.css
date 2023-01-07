@@ -1,0 +1,40 @@
+.form {
+    font-size: 20px;
+}
+
+.formInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #511B1B;
+    width: 200px;
+}
+
+.formTextarea {
+    background-color: transparent;
+    border: 1px solid #511B1B;
+    border-radius: 10px;
+    width: 100%
+}
+
+.formBtn {
+    background-color: #511B1B;
+    color: #D9D9D9;
+    width: 160px;
+    border: 2px solid #2E2929;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1439px) {
+    .formInput {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .formInput {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #511B1B;
+        width: 300px;
+    }
+}
