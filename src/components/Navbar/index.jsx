@@ -14,7 +14,7 @@ const Navbar = ({opacity, media, click}) => {
       <li hidden={media}>
         <ul className='d-flex justify-content-around align-items-center p-0'>
           <li className='me-1 me-xl-2'><a href="https://instagram.com/laquintadejaime?igshid=YmMyMTA2M2Y="><img src="assets/img/logos/igLogo.png" alt="Logo Instagram"/></a></li>
-          <li className='mx-2 mx-xl-3'><a href="https://www.facebook.com/people/Laquinta-De-Jaime-Adaro-Pelegrina/100008405597705/"><img src="assets/img/logos/wspLogo.png" alt="Logo Whatsapp"/></a></li>
+          <li className='mx-2 mx-xl-3'><a href="https://wa.me/+5492625523023" rel="noreferrer" target="_blank"><img src="assets/img/logos/wspLogo.png" alt="Logo Whatsapp"/></a></li>
           <li className='ms-1 ms-xl-2'><a href="https://www.facebook.com/profile.php?id=100088221063634"><img src="assets/img/logos/faceLogo.png" alt="Logo Facebook"/></a></li>
         </ul>
       </li>

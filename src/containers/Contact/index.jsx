@@ -35,7 +35,7 @@ const Contact = () => {
           <a className='my-3' href="https://www.facebook.com/profile.php?id=100088221063634">La quinta de Jaime - Licores<img className='ms-3' src="assets/img/logos/faceLogoBrown.png" alt="Logo de Facebook"/></a>
           <a className='my-3' href="https://instagram.com/laquintadejaime?igshid=YmMyMTA2M2Y=">@laquintadejaime<img className='ms-3' src="assets/img/logos/igLogoBrown.png" alt="Logo de Instagram"/>
           </a>
-          <a className='my-3' href="https://www.facebook.com/people/Laquinta-De-Jaime-Adaro-Pelegrina/100008405597705/">2625 523023<img className='ms-3' src="assets/img/logos/wspLogoBrown.png" alt="Logo de Whatsapp"/></a>
+          <a className='my-3' href="https://wa.me/+5492625523023" rel="noreferrer" target="_blank">2625 523023<img className='ms-3' src="assets/img/logos/wspLogoBrown.png" alt="Logo de Whatsapp"/></a>
         </div>
       </section>
     </main>
